@@ -16,7 +16,7 @@ def log(message: str):
     print(f'[{timestamp}] {message}')
 
 
-API_TOKEN = '8264647370:AAGB6K-2Rn0xGKZT--fI5deD-7XlxDlhaCk'
+API_TOKEN = 'TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 
@@ -96,3 +96,4 @@ if __name__ == '__main__':
     bot.polling(none_stop=True)
 
 conn.close()
+
